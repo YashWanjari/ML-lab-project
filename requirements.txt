@@ -1,0 +1,9 @@
+streamlit>=1.30.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+joblib>=1.3.0
+# scikit-learn is NOT used by the models, training script or app.
+# It is only needed to run Section 8 of the notebook (correctness check against sklearn).
+scikit-learn>=1.3.0
